@@ -13,4 +13,6 @@ Python Scripting
   PyQScintilla2 package
   PyQGIS Cookbook _pyqgis
   
+  dir() = python function shows you all available methods for any object
+  
   
