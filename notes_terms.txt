@@ -1,0 +1,16 @@
+notes_terms.txt
+============================================
+Layers
+  layer[datastructures] = visual representation of a geographical dataset in any
+    digital map environment. slice / stratum of the geographical reality in a particular area.
+    equivalent to a legend item on a paper map.
+  
+  layer[ERSI software] = reference to a datasource that defines how the data should be 
+    symbolized on a map.
+
+Python Scripting
+  Python scripting in QGIS is PyQGIS
+  PyQScintilla2 package
+  PyQGIS Cookbook _pyqgis
+  
+  
