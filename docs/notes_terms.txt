@@ -13,13 +13,36 @@ Python Scripting
   PyQScintilla2 package
   PyQGIS Cookbook _pyqgis
   
-Getting Started With Python Programming // http://www.qgistutorials.com/ // Ujaval Gandhi
+Getting Started With Python Programming *** http://www.qgistutorials.com/ *** Ujaval Gandhi
   airport data
   
   dir() = python function shows you all available methods for any object
   
-  for f in layer.getFeatures():
+# to access the attribute of each feature in a layer use: 
+for f in layer.getFeatures():
   print f['name'], f['iata_code']
-     access the attribute of each feature in a layer
+ 
+     
+geometry() = coordinates of a vector feature can be accessed through this function.
+    returns a geometry object that can store in the variable geom.
   
+asPoint() = run it on the geometry object to get the x and y coordinates of 
+    points
   
+asPolyline() , asPolygon()  if feature is a line or polygon
+
+# to get the coordinates of each feature use: 
+for f in layer.getFeatures():
+  geom = f.geometry()
+  print geom.asPoint()
+
+x() = to only get the x coordinate
+
+for f in layer.getFeatures():
+  geom = f.geometry()
+  print geom.asPoint().x()
+
+
+
+
+
