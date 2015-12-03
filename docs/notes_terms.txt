@@ -42,7 +42,11 @@ for f in layer.getFeatures():
   geom = f.geometry()
   print geom.asPoint().x()
 
+%s or %f ntoations to format a string or numeric variable
 
-
-
+# to print the name, iata_code, latitude, longitude of each airport features
+for f in layer.getFeatures():
+  geom = f.geometry()
+  print '%s, %s, %f, %f' % (f['name'], f['iata_code'],
+        geom.asPoint().y(), geom.asPoint(). x())
 
