@@ -13,6 +13,13 @@ Python Scripting
   PyQScintilla2 package
   PyQGIS Cookbook _pyqgis
   
+Getting Started With Python Programming // http://www.qgistutorials.com/ // Ujaval Gandhi
+  airport data
+  
   dir() = python function shows you all available methods for any object
+  
+  for f in layer.getFeatures():
+  print f['name'], f['iata_code']
+     access the attribute of each feature in a layer
   
   
