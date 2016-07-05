@@ -1,0 +1,25 @@
+//understanding geospatial data models//
+
+The objects stores the geometry of the spatial phenomenon.
+Attributes store descriptive information.
+
+A text data type cannot be used for mathematical calculations.
+
+Discrete spatial phenomenon are like roads and lakes.
+Continuous spatial phenomenon--elevation
+
+Vector data model defines discrete objects. Has an associated attribute table. 
+  three basic points:  lines, points, and polygons
+      composed of coordinates and attributes
+     line must always start and end with a node and may have any number of vertices between the two nodes. 
+      
+
+Lines
+  Node and vertex
+  Node: where a line begins and ends
+  vertex: where a line changes direction
+
+Triangular Irregular Network (TIN)
+  anatomy:  point, edge, face
+  represents continuous objects, like a raster
+
